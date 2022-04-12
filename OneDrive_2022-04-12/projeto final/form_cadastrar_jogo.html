@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Jogo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="area">
+    
+    <h2><p style = "font-family:courier;">Loja de Jogos Game Over - Cadastrar</p></h2>
+    <form name="cadastrar_jogo" method="post" action="inserir_jogo.php">
+        Nome:<br> <input name="nome_jogo" type=text size=50 maxlength=50><br>
+        Gênero: <br>
+        <select name="genero_jogo">
+            <option>Selecione</option>
+            <option value="ação">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="rpg">RPG</option>
+            <option value="simulação">Simulação</option>
+            <option value="puzzle">Puzzle</option>
+            <option value="esporte">Esporte</option>
+            <option value="estratégia">Estratégia</option>
+        </select><br>
+
+        Empresa: <br><input name="nome_empresa" type=text size=50 maxlength=50><br>
+
+        Classificação indicativa:<br> 
+        <input type="radio" name="classificacao" value="Livre"></input>Livre<br>
+        <input type="radio" name="classificacao" value=10></input>10 anos<br>
+        <input type="radio" name="classificacao" value=12></input>12 anos<br>
+        <input type="radio" name="classificacao" value=14></input>14 anos<br>
+        <input type="radio" name="classificacao" value=16></input>16 anos<br>
+        <input type="radio" name="classificacao" value=18></input>18 anos<br>
+     
+        <input type=submit value=Enviar>
+    </form>
+</div>
+</body>
+</html>

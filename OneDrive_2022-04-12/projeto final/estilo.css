@@ -1,0 +1,13 @@
+body{
+
+    background: url("sony.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+    background-attachment:fixed ;}
+
+.area{width: 40%;
+    background-color: #b132c8b2;
+    margin:0 auto;
+    margin-top: -8px;
+    padding: 25px;}
